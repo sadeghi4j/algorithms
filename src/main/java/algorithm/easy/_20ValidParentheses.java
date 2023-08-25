@@ -1,7 +1,5 @@
 package algorithm.easy;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Stack;
 
 /**
@@ -10,7 +8,7 @@ import java.util.Stack;
  * @author Ali Sadeghi
  * Created at 2023/08/12 - 10:04 PM
  */
-public class _5ValidParentheses {
+public class _20ValidParentheses {
 
     public boolean isValid(String s) {
 
@@ -33,7 +31,7 @@ public class _5ValidParentheses {
 //        String s = "()";
         String s =  "()[]{}";
 //        String s =  "(]";
-        boolean valid = new _5ValidParentheses().isValid(s);
+        boolean valid = new _20ValidParentheses().isValid(s);
         System.out.println("valid = " + valid);
     }
 }

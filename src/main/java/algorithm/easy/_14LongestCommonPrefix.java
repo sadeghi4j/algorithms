@@ -6,7 +6,7 @@ package algorithm.easy;
  * @author Ali Sadeghi
  * Created at 2023/08/11 - 10:34 PM
  */
-public class _4LongestCommonPrefix {
+public class _14LongestCommonPrefix {
 
     public String longestCommonPrefix(String[] strs) {
         StringBuilder result = new StringBuilder();
@@ -28,7 +28,7 @@ public class _4LongestCommonPrefix {
         String[] strs = {"flower", "flow", "flight"};
 //        String[] strs = {"dog", "racecar", "car"};
 //        String[] strs = {"ab", "a"};
-        String longestCommonPrefix = new _4LongestCommonPrefix().longestCommonPrefix(strs);
+        String longestCommonPrefix = new _14LongestCommonPrefix().longestCommonPrefix(strs);
         System.out.println("longestCommonPrefix = " + longestCommonPrefix);
     }
 }

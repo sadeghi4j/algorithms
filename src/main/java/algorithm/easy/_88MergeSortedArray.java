@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.easy;
 
 import java.util.Arrays;
 
@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @author Ali Sadeghi
  * Created at 2023/08/08 - 10:39 PM
  */
-public class MergeSortedArray {
+public class _88MergeSortedArray {
 
     public static void main(String[] args) {
 //        int[] nums1 = {1, 2, 3, 0, 0, 0};
@@ -20,7 +20,7 @@ public class MergeSortedArray {
 //        new MergeSortedArray().merge(nums1, 3, nums2, 3);
         int[] nums1 = {1};
         int[] nums2 = {};
-        new MergeSortedArray().merge(nums1, 1, nums2, 0);
+        new _88MergeSortedArray().merge(nums1, 1, nums2, 0);
         System.out.println("nums1 = " + Arrays.toString(nums1));
     }
 

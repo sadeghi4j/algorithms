@@ -9,13 +9,13 @@ import java.util.Map;
  * @author Ali Sadeghi
  * Created at 2023/08/11 - 10:04 PM
  */
-public class _3_RomanToInteger {
+public class _13RomanToInteger {
 
     public static void main(String[] args) {
 //        String roman = "VIII";
 //        String roman = "LVIII";
         String roman = "MCMXCIV";
-        int romanToInt = new _3_RomanToInteger().romanToInt(roman);
+        int romanToInt = new _13RomanToInteger().romanToInt(roman);
         System.out.println("romanToInt = " + romanToInt);
     }
 

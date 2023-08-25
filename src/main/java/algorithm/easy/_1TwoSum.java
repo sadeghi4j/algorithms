@@ -13,7 +13,7 @@ import java.util.Map;
  * @author Ali Sadeghi
  * Created at 2023/08/11 - 5:08 PM
  */
-public class _1_TwoSum {
+public class _1TwoSum {
 
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
@@ -24,7 +24,7 @@ public class _1_TwoSum {
 
 //        int[] nums = {3,3};
 //        int target = 6;
-        int[] ints = new _1_TwoSum().twoSumOnePass(nums, target);
+        int[] ints = new _1TwoSum().twoSumOnePass(nums, target);
         System.out.println("ints = " + Arrays.toString(ints));
     }
 

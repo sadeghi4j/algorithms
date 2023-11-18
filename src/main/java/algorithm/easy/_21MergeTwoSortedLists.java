@@ -51,4 +51,9 @@ class ListNode {
         this.val = val;
         this.next = next;
     }
+
+    @Override
+    public String toString() {
+        return val + ", " + next;
+    }
 }

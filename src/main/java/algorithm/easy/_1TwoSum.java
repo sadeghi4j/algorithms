@@ -8,8 +8,6 @@ import java.util.Map;
  * https://leetcode.com/problems/two-sum/
  * Solution 1 (BruteForce) just checks all possibilities by using nested for loop
  * Solution 2 (TwoPass) make an improvement by storing the nums and their indexes in Map and find accomplishment from Map by using hash
- * روش اول حل مسئله بوسیله بررسی تمام احتمالات هست
- * روش دوم از آیتم های قبلی رو میریزه تو یه جور حافظه موقت و آیتم فعلی رو بوسیه مپ به تمامشون مقایسه می کنه
  * @author Ali Sadeghi
  * Created at 2023/08/11 - 5:08 PM
  */
